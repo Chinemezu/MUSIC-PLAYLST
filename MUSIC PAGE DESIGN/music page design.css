@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mansalva|Rock+Salt&display=swap');
+
+*{
+    margin:0;
+}
+p1{
+    margin-left: 70px;
+}
+.side-bar{
+    width: 300px;
+    height:710px;
+    background-color: gainsboro;
+    position: fixed;
+}
+.lines{
+    width: 15%;
+    border-bottom:1px;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    padding-left: 8px;
+}
+.lines:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+.lines div{
+    height: 1px;
+    width: 20px;
+    background-color:gray;
+    margin: 3px;
+    border-radius: 5px;
+}
+.side-bar-content{
+    padding-bottom: 1em;
+}
+.list-item{
+    width: 97%;
+    border-bottom:1px;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    padding-left: 8px;
+
+}
+.list-item:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+    
+}
+section{
+    display: flex;
+}
+.header{
+    background-color: rgb(209, 199, 52);
+    width: 1050px;
+    height: 300px;
+    color: white;
+}
+.KOD-image{
+    height: 230px;
+    width: 230px;
+}
+.image{
+    padding-top: 35px;
+    padding-left: 35px;
+}
+.header{
+    display:flex;
+}
+.header-section{
+    padding-left: 35px;
+    padding-top: 35px;
+    text-shadow: 5px 2px 4px black;
+    
+}
+.stop{
+    font-size: larger;
+}
+.song-name{
+    font-family: 'Rock Salt', cursive;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+.second-half{
+    display: flex;
+    flex-direction: column;
+}
+.header-bottom{
+    display:flex;
+    padding-left: 35px;
+    padding-top:120px;
+}
+.header-bottom div{
+    padding-left: 45px;
+}
+.header-bottom div:first-child{
+    padding-left:0;
+}
+.header-bottom div:hover{
+    background-color: rgb(55, 207, 41);
+    cursor: pointer;
+}
+.body-section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 296px;
+}
+.body{
+    margin:35px;
+}
+.body-characters{
+    padding-bottom:10px;
+    margin-bottom:10px;
+}
+.track {
+    display:inline-block; padding:10px;
+}
+.name{
+    font-weight:bold;
+    width:40%;
+}
+.artist{
+    width: 40%;
+}
+.time{
+    width: 10px;
+}
+.gray{
+    background-color: gainsboro;
+}
+.body-characters:hover{
+    background-color: rgb(158, 157, 157);
+    cursor: pointer;
+}
+.content{
+    justify-content: center;
+}
